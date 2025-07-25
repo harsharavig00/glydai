@@ -150,7 +150,7 @@ const f = [{
             className: "min-h-screen bg-dark pt-32 pb-16 md:pt-40 md:pb-24",
             children: r.jsx(a, {
                 children: r.jsxs("div", {
-                    className: "max-w-4xl mx-auto",
+                    className: "max-w-4xl mx-auto px-4",
                     children: [r.jsxs("div", {
                         className: "text-center mb-8 md:mb-12",
                         children: [r.jsxs("h1", {
@@ -162,19 +162,39 @@ const f = [{
                                 className: "serif-italic",
                                 children: "talk."
                             })]
-                        }), 
-                                    r.jsx("div", {
-                            className: "calcom-embed",
-                            children: r.jsx("iframe", {
-                                src: "https://cal.com/harsharavig/discovery-call-ind",
-                                width: "100%",
-                                height: "600px",
-                                frameBorder: "0",
-                                allowFullScreen: true
+                        })]
+                    }), r.jsxs("div", {
+                        className: "flex flex-col md:flex-row gap-8",
+                        children: [
+                            r.jsx("div", {
+                                className: "md:w-1/2",
+                                children: r.jsx("div", {
+                                    className: "calcom-embed",
+                                    children: r.jsx("iframe", {
+                                        src: "https://cal.com/harsharavig/discovery-call-ind",
+                                        width: "100%",
+                                        height: "600px",
+                                        frameBorder: "0",
+                                        allowFullScreen: true
+                                    })
+                                })
+                            }),
+                            r.jsxs("div", {
+                                className: "md:w-1/2 flex flex-col items-center justify-center",
+                                children: [
+                                    r.jsx("p", {
+                                        className: "text-lg md:text-xl text-gray-300 mb-4",
+                                        children: "Or call us right now"
+                                    }),
+                                    r.jsx("a", {
+                                        href: "tel:+918749044712",
+                                        className: "btn-primary text-base md:text-lg px-6 md:px-8 py-3 md:py-4",
+                                        children: "Call Now"
+                                    })
+                                ]
                             })
-                        }),
-                       ]
-                    }), ]
+                        ]
+                    })]
                 })
             })
         })
