@@ -162,7 +162,18 @@ const f = [{
                                 className: "serif-italic",
                                 children: "talk."
                             })]
-                        }), r.jsx("p", {
+                        }), 
+                                    r.jsx("div", {
+                            className: "calcom-embed",
+                            children: r.jsx("iframe", {
+                                src: "https://cal.com/your-username/demo",
+                                width: "100%",
+                                height: "600px",
+                                frameBorder: "0",
+                                allowFullScreen: true
+                            })
+                        }),
+                                   r.jsx("p", {
                             className: "text-lg sm:text-xl text-gray-300 max-w-2xl mx-auto px-4 md:px-0 leading-relaxed",
                             children: "Fill out the form below to book a Free AI Web Agent demo. No pressure. No hard sell. Just results."
                         })]
