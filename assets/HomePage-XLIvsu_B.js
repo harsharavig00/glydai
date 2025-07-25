@@ -298,7 +298,7 @@ const I = ({
                             },
                             children: [e.jsx("span", {
                                 className: "block mb-1 md:mb-0",
-                                children: "Your agency already works hard."
+                                children: "Your agency works hard."
                             }), e.jsxs("span", {
                                 className: "block",
                                 children: ["Now ", e.jsx("span", {
