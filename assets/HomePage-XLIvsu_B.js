@@ -627,7 +627,8 @@ const I = ({
                         }, s))
                     })]
                 })
-            }), e.jsx(u, {
+            }), 
+e.jsx(u, {
                 className: "bg-dark",
                 children: e.jsxs(I, {
                     children: [e.jsxs("div", {
@@ -881,7 +882,94 @@ const I = ({
                         }, s))
                     })]
                 })
-            }), e.jsx(u, {
+            }), 
+                       e.jsx(u, {
+    id: "testimonials",
+    className: "bg-dark",
+    children: e.jsxs(I, {
+        children: [e.jsxs("div", {
+            className: "text-center mb-12 md:mb-16",
+            children: [e.jsx("span", {
+                className: "section-label",
+                children: "Testimonials"
+            }), e.jsxs("h2", {
+                className: "text-3xl sm:text-4xl md:text-5xl font-medium mb-4 md:mb-6 leading-tight px-4 md:px-0",
+                style: {
+                    color: "#ffffff"
+                },
+                children: ['"See How We Help Businesses ', e.jsx("span", {
+                    className: "serif-italic",
+                    children: "Work Smarter"
+                }), '"']
+            }), e.jsx("p", {
+                className: "text-lg sm:text-xl text-gray-300 max-w-2xl mx-auto px-4 md:px-0 leading-relaxed",
+                children: "Hear from our clients about the impact of our custom AI solutions on their growth and efficiency."
+            })]
+        }), e.jsx("div", {
+            className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 px-4 md:px-0",
+            children: [{
+                name: "John Doe",
+                designation: "CEO, Tech Innovations",
+                review: "The AI lead qualification has transformed our sales process, saving us countless hours."
+            }, {
+                name: "Jane Smith",
+                designation: "Marketing Director, Growth Labs",
+                review: "With AI SEO, we've seen a 300% increase in organic leads within months. Incredible!"
+            }, {
+                name: "Alex Johnson",
+                designation: "Operations Manager, ScaleUp Inc.",
+                review: "Custom workflows and CRM integration have streamlined our operations like never before."
+            }].map((t, s) => e.jsx(f.div, {
+                initial: {
+                    opacity: 0,
+                    y: 30
+                },
+                whileInView: {
+                    opacity: 1,
+                    y: 0
+                },
+                viewport: {
+                    once: !0,
+                    margin: "-50px"
+                },
+                transition: {
+                    duration: .6,
+                    delay: .1 * s
+                },
+                whileHover: {
+                    y: -5
+                },
+                children: e.jsx(O, {  // Assuming O is a reusable card component; adapt as needed for testimonials
+                    className: "glowing-card",  // Incorporating glowing-card style from CSS for hover effects [1]
+                    children: e.jsxs("div", {
+                        children: [
+                            e.jsx("p", {
+                                className: "text-gray-300 mb-4",
+                                children: t.review
+                            }),
+                            e.jsxs("div", {
+                                className: "text-right",
+                                children: [
+                                    e.jsx("span", {
+                                        className: "font-bold",
+                                        children: t.name
+                                    }),
+                                    e.jsx("span", {
+                                        className: "text-sm text-gray-500 block",
+                                        children: t.designation
+                                    })
+                                ]
+                            })
+                        ]
+                    })
+                })
+            }, s))
+        })]
+    })
+}),
+                       
+                       
+                       e.jsx(u, {
                 id: "faqs",
                 className: "bg-dark",
                 children: e.jsx(I, {
