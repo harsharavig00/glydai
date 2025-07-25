@@ -256,12 +256,102 @@ const P = () => {
                             className: "flex items-center mb-6",
                             children: [_.jsx(v, {
                                 className: "w-12 h-12 mr-2"
-                            }), ]
-                        }), , , ,;
+                            }), _.jsx("span", {
+                                className: "text-xl font-medium text-white",
+                                children: "GlydAI"
+                            })]
+                        }), _.jsx("h3", {
+                            className: "text-2xl font-medium mb-4",
+                            style: {
+                                color: "#ffffff"
+                            },
+                            children: "Get Free AI Resources"
+                        }), _.jsx("p", {
+                            className: "text-gray-400 mb-6 max-w-md",
+                            children: "Sign up to get tactical AI plug & play resources to grow your business."
+                        }), _.jsx("p", {
+                            className: "text-gray-500 text-sm mb-6",
+                            children: "Don't worry, we hate spam too."
+                        }), _.jsxs("form", {
+                            onSubmit: t => {
+                                return r = void 0, o = null, l = function*() {
+                                    t.preventDefault(), n(!0), i("");
+                                    try {
+                                        const t = "https://n8n1.gangasystems.com/webhook-test/glydaiemail",
+                                            o = {
+                                                email: s,
+                                                timestamp: (new Date).toISOString(),
+                                                source: "footer_newsletter_signup"
+                                            };
+                                        if ((yield fetch(t, {
+                                                method: "POST",
+                                                headers: {
+                                                    "Content-Type": "application/json"
+                                                },
+                                                body: JSON.stringify(o)
+                                            })).ok) {
+                                            try {
+                                                const {
+                                                    createClient: t
+                                                } = yield e(() => import("./supabase-bNDkVZ62.js").then(e => e.i), __vite__mapDeps([0, 1])), r = t("https://qvzbuzvswxrygqllbsvi.supabase.co", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InF2emJ1enZzd3hyeWdxbGxic3ZpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTE1NDA0NzAsImV4cCI6MjA2NzExNjQ3MH0.c2vbVAf_tvhu8gxykHsIdOeC2W7_RuzO4F-PAGBG2ug");
+                                                yield r.from("newsletter_subscribers").insert([{
+                                                    email: s
+                                                }])
+                                            } catch (r) {}
+                                            i("Thank you for subscribing!"), a("")
+                                        } else i("Something went wrong. Please try again.")
+                                    } catch (o) {
+                                        i("Something went wrong. Please try again.")
+                                    } finally {
+                                        n(!1)
+                                    }
+                                }, new Promise((e, s) => {
+                                    var a = e => {
+                                            try {
+                                                i(l.next(e))
+                                            } catch (t) {
+                                                s(t)
+                                            }
+                                        },
+                                        n = e => {
+                                            try {
+                                                i(l.throw(e))
+                                            } catch (t) {
+                                                s(t)
+                                            }
+                                        },
+                                        i = t => t.done ? e(t.value) : Promise.resolve(t.value).then(a, n);
+                                    i((l = l.apply(r, o)).next())
+                                });
+                                var r, o, l
                             },
                             className: "flex gap-4 max-w-md",
-                            children: 
-                        }), ,]
+                            children: [_.jsx("input", {
+                                type: "email",
+                                value: s,
+                                onChange: e => a(e.target.value),
+                                placeholder: "Your Email Address",
+                                className: "flex-1 px-4 py-3 bg-gray-900 border border-gray-700 rounded-xl text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:border-transparent",
+                                required: !0,
+                                disabled: o
+                            }), _.jsx("button", {
+                                type: "submit",
+                                disabled: o,
+                                className: "px-6 py-3 text-white font-medium rounded-xl transition-colors duration-300 shadow-[0_0_20px_rgba(255,155,5,0.4)] hover:shadow-[0_0_30px_rgba(255,155,5,0.6)] disabled:opacity-50 disabled:cursor-not-allowed",
+                                style: {
+                                    backgroundColor: "#ff9b05"
+                                },
+                                onMouseEnter: e => e.currentTarget.style.backgroundColor = "#4325C7",
+                                onMouseLeave: e => e.currentTarget.style.backgroundColor = "#ff9b05",
+                                children: o ? "Subscribing..." : "Get Notified"
+                            })]
+                        }), l && _.jsx("p", {
+                            className: "text-sm mt-4 " + (l.includes("Thank you") ? "text-green-400" : "text-red-400"),
+                            children: l
+                        }), _.jsx("p", {
+                            className: "text-xs text-gray-600 mt-4 max-w-md",
+                            children: "NMW3 needs the contact information you provide to us to contact you about our products and services. You may unsubscribe from these communications at any time."
+                        })]
                     }), _.jsxs("div", {
                         className: "grid grid-cols-2 gap-8",
                         children: [_.jsxs("div", {
