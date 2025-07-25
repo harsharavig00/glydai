@@ -476,43 +476,7 @@ const f = [{
                                     className: "text-red-400 text-sm mt-1",
                                     children: p.reason
                                 })]
-                            }), r.jsxs("div", {
-                                children: [r.jsx("label", {
-                                    htmlFor: "concerns",
-                                    className: "block text-sm font-medium mb-2",
-                                    style: {
-                                        color: "#ffffff"
-                                    },
-                                    children: "What's your main concern(s) that you want addressed?"
-                                }), r.jsx("p", {
-                                    className: "text-sm text-gray-400 mb-3",
-                                    children: "Optional."
-                                }), r.jsx("textarea", {
-                                    id: "concerns",
-                                    value: l.concerns,
-                                    onChange: e => v("concerns", e.target.value),
-                                    rows: 3,
-                                    className: "w-full px-4 py-3 bg-gray-900 border border-gray-700 rounded-xl text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-colors resize-none",
-                                    placeholder: "Any specific concerns or questions?",
-                                    disabled: c
-                                })]
-                            }), r.jsx("div", {
-                                className: "pt-4",
-                                children: r.jsx("button", {
-                                    type: "submit",
-                                    disabled: c,
-                                    className: "w-full btn-primary text-lg py-4 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-3",
-                                    children: c ? r.jsxs(r.Fragment, {
-                                        children: [r.jsx("div", {
-                                            className: "w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin"
-                                        }), "Submitting..."]
-                                    }) : r.jsxs(r.Fragment, {
-                                        children: [r.jsx(n, {
-                                            size: 20
-                                        }), "Send Message"]
-                                    })
-                                })
-                            })]
+                            }), , ]
                         })
                     })]
                 })
