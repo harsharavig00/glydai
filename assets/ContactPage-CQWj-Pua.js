@@ -162,48 +162,7 @@ const f = [{
                                 className: "serif-italic",
                                 children: "talk."
                             })]
-                        }),
-                                   return (
-    <div className="min-h-screen bg-dark pt-32 pb-16 md:pt-40 md:pb-24">
-      <Section>
-        <div className="max-w-6xl mx-auto px-4">
-          <div className="text-center mb-8 md:mb-12">
-            <h1
-              className="text-3xl sm:text-4xl md:text-6xl font-medium mb-4 md:mb-6 leading-tight px-4 md:px-0"
-              style={{ color: "#ffffff" }}
-            >
-              Let's <span className="serif-italic">talk.</span>
-            </h1>
-            <p className="text-lg sm:text-xl text-gray-300 max-w-2xl mx-auto px-4 md:px-0 leading-relaxed">
-              Schedule a free AI Web Agent demo or call us directly to discuss your needs.
-            </p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
-            <div>
-              <h2 className="text-xl md:text-2xl font-medium mb-4" style={{ color: "#ffffff" }}>
-                Book a Free Demo
-              </h2>
-              <iframe
-                src="https://cal.com/book/your-username" // Replace 'your-username' with your actual Cal.com booking link
-                title="Cal.com Booking"
-                className="w-full h-[600px] border-0 rounded-xl"
-              ></iframe>
-            </div>
-            <div className="flex flex-col items-center justify-center">
-              <h2 className="text-xl md:text-2xl font-medium mb-4" style={{ color: "#ffffff" }}>
-                Or Call Us Right Now
-              </h2>
-              <a
-                href="tel:+918749044712"
-                className="btn-primary text-base md:text-lg px-6 md:px-8 py-3 md:py-4"
-              >
-                Call Now
-              </a>
-            </div>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 mb-8 md:mb-12")
-                                   
-                                   r.jsx("p", {
+                        }), r.jsx("p", {
                             className: "text-lg sm:text-xl text-gray-300 max-w-2xl mx-auto px-4 md:px-0 leading-relaxed",
                             children: "Fill out the form below to book a Free AI Web Agent demo. No pressure. No hard sell. Just results."
                         })]
