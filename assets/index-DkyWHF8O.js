@@ -143,7 +143,7 @@ const v = ({
             }, [l.pathname, m]),
             x = t.useMemo(() => [{
                 name: "Blog",
-                path: "/"
+                path: "/blog"
             }, ], []),
             p = t.useMemo(() => "fixed top-12 left-0 right-0 z-40 transition-all duration-300", [o]);
         return _.jsx("header", {
