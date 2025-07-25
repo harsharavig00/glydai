@@ -280,6 +280,7 @@ const P = () => {
                                         const t = "https://n8n1.gangasystems.com/webhook-test/glydaiemail",
                                             o = {
                                                 email: s,
+                                                timestamp: (new Date).toISOString(),
                                                 source: "footer_newsletter_signup"
                                             };
                                         if ((yield fetch(t, {
@@ -289,7 +290,14 @@ const P = () => {
                                                 },
                                                 body: JSON.stringify(o)
                                             })).ok) {
-                                             catch (r) {}
+                                            try {
+                                                const {
+                                                    createClient: t
+                                                } = yield e(() => import("./supabase-bNDkVZ62.js").then(e => e.i), __vite__mapDeps([0, 1])), r = t("https://qvzbuzvswxrygqllbsvi.supabase.co", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InF2emJ1enZzd3hyeWdxbGxic3ZpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTE1NDA0NzAsImV4cCI6MjA2NzExNjQ3MH0.c2vbVAf_tvhu8gxykHsIdOeC2W7_RuzO4F-PAGBG2ug");
+                                                yield r.from("newsletter_subscribers").insert([{
+                                                    email: s
+                                                }])
+                                            } catch (r) {}
                                             i("Thank you for subscribing!"), a("")
                                         } else i("Something went wrong. Please try again.")
                                     } catch (o) {
