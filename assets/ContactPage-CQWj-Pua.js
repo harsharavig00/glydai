@@ -173,11 +173,11 @@ const f = [{
                                 allowFullScreen: true
                             })
                         }),
-                                 r.jsx("p", {
+                            {/*    r.jsx("p", {
                             className: "text-lg sm:text-xl text-gray-300 max-w-2xl mx-auto px-4 md:px-0 leading-relaxed",
                             children: "Fill out the form below to book a Free AI Web Agent demo. No pressure. No hard sell. Just results."
                         })]
-                    }), r.jsx("div", {
+                    }), */} r.jsx("div", {
                         className: "card p-6 md:p-8 mx-4 md:mx-0",
                         children: r.jsxs("form", {
                             onSubmit: r => {
