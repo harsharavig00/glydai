@@ -919,15 +919,15 @@ e.jsx(u, {
                     className: "text-amber-400",
                     children: "“"
                 }),
-                title: "Jane Smith - Marketing Director, Growth Labs",
-                description: "With AI SEO, we've seen a 300% increase in organic leads within months. Incredible!"
+                title: "Mohan MG - Celebrity Fitness Coach",
+                description: "A website built in less than 6 hours and a lead generation AI agent which books sessions automatically. These guys know what they're doing."
             }, {
                 icon: e.jsx("span", {
                     className: "text-amber-400",
                     children: "“"
                 }),
-                title: "Alex Johnson - Operations Manager, ScaleUp Inc.",
-                description: "Custom workflows and CRM integration have streamlined our operations like never before."
+                title: "Shruti Mittal - CEO, Mittal Design Spaces",
+                description: "My clients love the design of my website and they even helped me with funnel automation using AI. Highly recommended."
             }].map((t, s) => e.jsx(f.div, {
                 initial: {
                     opacity: 0,
