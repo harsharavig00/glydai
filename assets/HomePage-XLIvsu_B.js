@@ -298,12 +298,12 @@ const I = ({
                             },
                             children: [e.jsx("span", {
                                 className: "block mb-1 md:mb-0",
-                                children: "Your agency works hard."
+                                children: "Your business works hard."
                             }), e.jsxs("span", {
                                 className: "block",
-                                children: ["Now ", e.jsx("span", {
+                                children: ["Now add ", e.jsx("span", {
                                     className: "serif-italic",
-                                    children: "add smart."
+                                    children: "smart."
                                 })]
                             })]
                         }), e.jsx(f.h2, {
@@ -356,18 +356,8 @@ const I = ({
                                 delay: .6,
                                 ease: [.25, .46, .45, .94]
                             },
-                          children: e.jsx("iframe", {
-                        width: "100%",
-                        height: "315",
-                        src: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-                        title: "YouTube video player",
-                        frameBorder: "0",
-                        allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
-                        allowFullScreen: true,
-                        className: "max-w-3xl mx-auto rounded-lg"
-                    })
                 }), e.jsxs(f.div, {
-                    className: "flex flex-col sm:flex-row gap-4 justify-center items-center px-4 md:px-0 mt-12",
+                    className: "flex flex-col sm:flex-row gap-4 justify-center items-center px-4 md:px-0",
                     initial: {
                         opacity: 0,
                         y: 20
