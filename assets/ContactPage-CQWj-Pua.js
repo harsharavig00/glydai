@@ -166,7 +166,7 @@ const f = [{
                                     r.jsx("div", {
                             className: "calcom-embed",
                             children: r.jsx("iframe", {
-                                src: "https://cal.com/your-username/demo",
+                                src: "https://cal.com/harsharavig/discovery-call",
                                 width: "100%",
                                 height: "600px",
                                 frameBorder: "0",
