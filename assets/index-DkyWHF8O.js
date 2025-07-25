@@ -144,11 +144,7 @@ const v = ({
             x = t.useMemo(() => [{
                 name: "Blog",
                 path: "/blog"
-            }, {
-                name: "Trasnform",
-                path: "https://x.com/nmw3_",
-                external: !0
-            }], []),
+            }, ], []),
             p = t.useMemo(() => "fixed top-12 left-0 right-0 z-40 transition-all duration-300", [o]);
         return _.jsx("header", {
             className: p,
@@ -293,7 +289,7 @@ const P = () => {
                                             try {
                                                 const {
                                                     createClient: t
-                                                } = yield e(() => import("./supabase-bNDkVZ62.js").then(e => e.i), __vite__mapDeps([0, 1])), r = t("https://qvzbuzvswxrygqllbsvi.supabase.co", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InF2emJ1enZzd3hyeWdxbGxic3ZpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTE1NDA0NzAsImV4cCI6MjA2NzExNjQ3MH0.c2vbVAf_tvhu8gxykHsIdOeC2W7_RuzO4F-PAGBG2ug");
+                                                } = yield e(() => import("./supabase-bNDkVZ62.js").then(e => e.i), __vite__mapDeps([0, 1])), r = t("https://qvzbuzvswxrygqllbsvis.supabase.co", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InF2emJ1enZzd3hyeWdxbGxic3ZpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTE1NDA0NzAsImV4cCI6MjA2NzExNjQ3MH0.c2vbVAf_tvhu8gxykHsIdOeC2W7_RuzO4F-PAGBG2ug");
                                                 yield r.from("newsletter_subscribers").insert([{
                                                     email: s
                                                 }])
@@ -369,25 +365,7 @@ const P = () => {
                                         className: "text-gray-400 hover:text-white transition-colors",
                                         children: "Home"
                                     })
-                                }), _.jsx("li", {
-                                    children: _.jsx(r, {
-                                        to: "/blog",
-                                        className: "text-gray-400 hover:text-white transition-colors",
-                                        children: "Blog"
-                                    })
-                                }), _.jsx("li", {
-                                    children: _.jsx(r, {
-                                        to: "/contact",
-                                        className: "text-gray-400 hover:text-white transition-colors",
-                                        children: "Contact"
-                                    })
-                                }), _.jsx("li", {
-                                    children: _.jsx(r, {
-                                        to: "/newsletter",
-                                        className: "text-gray-400 hover:text-white transition-colors",
-                                        children: "Newsletter"
-                                    })
-                                })]
+                                }), ,, ]
                             })]
                         }), _.jsxs("div", {
                             children: [_.jsx("h4", {
@@ -400,9 +378,9 @@ const P = () => {
                                 className: "space-y-3",
                                 children: _.jsx("li", {
                                     children: _.jsx("a", {
-                                        href: "mailto:nicolas@nmw3.com",
+                                        href: "mailto:hrg@glydai.com",
                                         className: "text-gray-400 hover:text-white transition-colors",
-                                        children: "nicolas@nmw3.com"
+                                        children: "hrg@glydai.com"
                                     })
                                 })
                             })]
@@ -412,7 +390,7 @@ const P = () => {
                     className: "pt-8 border-t border-gray-700 text-center",
                     children: _.jsx("p", {
                         className: "text-gray-500 text-sm",
-                        children: "© 2025 NMW3. All rights reserved."
+                        children: "© 2025 GlydAI. All rights reserved."
                     })
                 })]
             })
