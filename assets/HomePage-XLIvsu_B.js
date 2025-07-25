@@ -883,7 +883,7 @@ e.jsx(u, {
                     })]
                 })
             }), 
-                       e.jsx(u, {
+                     e.jsx(u, {
     id: "testimonials",
     className: "bg-dark",
     children: e.jsxs(I, {
@@ -908,17 +908,26 @@ e.jsx(u, {
         }), e.jsx("div", {
             className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 px-4 md:px-0",
             children: [{
-                name: "John Doe",
-                designation: "CEO, Tech Innovations",
-                review: "The AI lead qualification has transformed our sales process, saving us countless hours."
+                icon: e.jsx("span", { // Using a simple quote icon placeholder; replace with actual icon component if available
+                    className: "text-amber-400",
+                    children: "“"
+                }),
+                title: "John Doe - CEO, Tech Innovations",
+                description: "The AI lead qualification has transformed our sales process, saving us countless hours."
             }, {
-                name: "Jane Smith",
-                designation: "Marketing Director, Growth Labs",
-                review: "With AI SEO, we've seen a 300% increase in organic leads within months. Incredible!"
+                icon: e.jsx("span", {
+                    className: "text-amber-400",
+                    children: "“"
+                }),
+                title: "Jane Smith - Marketing Director, Growth Labs",
+                description: "With AI SEO, we've seen a 300% increase in organic leads within months. Incredible!"
             }, {
-                name: "Alex Johnson",
-                designation: "Operations Manager, ScaleUp Inc.",
-                review: "Custom workflows and CRM integration have streamlined our operations like never before."
+                icon: e.jsx("span", {
+                    className: "text-amber-400",
+                    children: "“"
+                }),
+                title: "Alex Johnson - Operations Manager, ScaleUp Inc.",
+                description: "Custom workflows and CRM integration have streamlined our operations like never before."
             }].map((t, s) => e.jsx(f.div, {
                 initial: {
                     opacity: 0,
@@ -939,35 +948,17 @@ e.jsx(u, {
                 whileHover: {
                     y: -5
                 },
-                children: e.jsx(O, {  // Assuming O is a reusable card component; adapt as needed for testimonials
-                    className: "glowing-card",  // Incorporating glowing-card style from CSS for hover effects [1]
-                    children: e.jsxs("div", {
-                        children: [
-                            e.jsx("p", {
-                                className: "text-gray-300 mb-4",
-                                children: t.review
-                            }),
-                            e.jsxs("div", {
-                                className: "text-right",
-                                children: [
-                                    e.jsx("span", {
-                                        className: "font-bold",
-                                        children: t.name
-                                    }),
-                                    e.jsx("span", {
-                                        className: "text-sm text-gray-500 block",
-                                        children: t.designation
-                                    })
-                                ]
-                            })
-                        ]
-                    })
+                children: e.jsx(O, {  // Assuming O is a reusable FeatureCard component that accepts icon, title, description
+                    className: "glowing-card",  // Incorporating glowing-card style with shadow and hover effects for visibility [1]
+                    icon: t.icon,
+                    title: t.title,
+                    description: t.description,
+                    style: { color: "#ffffff" }  // Ensure high contrast text for dark background [1]
                 })
             }, s))
         })]
     })
-}),
-                       
+}),        
                        
                        e.jsx(u, {
                 id: "faqs",
