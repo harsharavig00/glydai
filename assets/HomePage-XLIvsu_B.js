@@ -324,7 +324,7 @@ const I = ({
                                 delay: .2,
                                 ease: [.25, .46, .45, .94]
                             },
-                            children: "Most Websites Drop the Ball. Yours Won't..."
+                            children: "Most Businesses Run Like It's 1990. Yours Won't..."
                         }), e.jsx(f.p, {
                             className: "text-base sm:text-lg md:text-xl text-gray-300 mb-8 md:mb-12 max-w-3xl mx-auto px-4 md:px-0 leading-relaxed",
                             initial: {
@@ -340,7 +340,7 @@ const I = ({
                                 delay: .4,
                                 ease: [.25, .46, .45, .94]
                             },
-                            children: "...Not with a 24/7 AI Web Agent that engages every visitor, captures every lead, and books more appointments on autopilot."
+                            children: "Cut costs, increase revenue by 10xwhile still running smoothly...using AI."
                         }), e.jsxs(f.div, {
                             className: "flex flex-col sm:flex-row gap-4 justify-center items-center px-4 md:px-0",
                             initial: {
@@ -400,18 +400,18 @@ const I = ({
                         style: {
                             color: "#ffffff"
                         },
-                        children: ["Your Website Gets Traffic.", e.jsx("br", {}), "But It's ", e.jsx("span", {
+                        children: ["You want to grow your business.", e.jsx("br", {}), "But It's ", e.jsx("span", {
                             className: "serif-italic",
-                            children: "not converting."
+                            children: "not happening."
                         })]
                     }), e.jsxs("p", {
                         className: "text-lg sm:text-xl text-gray-300 mb-8 md:mb-12 px-4 md:px-0 leading-relaxed max-w-2xl mx-auto",
-                        children: ["You're investing in ads, SEO, and content to drive traffic.", " ", e.jsx("span", {
+                        children: ["You're investing in ads, SEO, and content to get customers", " ", e.jsx("span", {
                             className: "sm:hidden",
-                            children: "But most visitors leave without doing anything. No form fill. No message. No sale."
+                            children: "But some convert. Most leave."
                         }), e.jsxs("span", {
                             className: "hidden sm:inline",
-                            children: [e.jsx("br", {}), "But most visitors leave without doing anything. No form fill. No message. No sale."]
+                            children: [e.jsx("br", {}), "But some convert. Most leave."]
                         })]
                     }), e.jsxs(f.div, {
                         className: "card p-6 md:p-8 mb-8 md:mb-12 mx-4 md:mx-0",
@@ -442,7 +442,7 @@ const I = ({
                             })
                         }), e.jsx("p", {
                             className: "text-lg sm:text-xl text-gray-300",
-                            children: "of website visitors leave without converting"
+                            children: "of businesses still run the old fashioined way."
                         })]
                     })]
                 })
@@ -464,10 +464,10 @@ const I = ({
                             className: "text-lg sm:text-xl text-gray-300 max-w-2xl mx-auto mb-8 md:mb-12 px-4 md:px-0 leading-relaxed",
                             children: ["You're running jobs, managing teams, handling customers, and juggling everything else.", " ", e.jsx("span", {
                                 className: "sm:hidden",
-                                children: "You shouldn't be replying to DMs at 10pm or chasing flaky leads."
+                                children: "You shouldn't be replying to DMs at 10pm or chasing leads."
                             }), e.jsxs("span", {
                                 className: "hidden sm:inline",
-                                children: [e.jsx("br", {}), "You shouldn't be replying to DMs at 10pm or chasing flaky leads."]
+                                children: [e.jsx("br", {}), "You shouldn't be replying to DMs at 10pm or chasing leads."]
                             })]
                         })]
                     }), e.jsx("div", {
@@ -482,7 +482,7 @@ const I = ({
                             title: "Slow response time kills hot leads",
                             description: "Losing interested prospects because you can't respond fast enough"
                         }, {
-                            title: "Support staff that ghost or quit",
+                            title: "Support staff that keep quitting",
                             description: "Unreliable team members who leave you hanging when you need them most"
                         }].map((t, s) => e.jsx(f.div, {
                             initial: {
@@ -529,13 +529,13 @@ const I = ({
                         },
                         children: [e.jsx("p", {
                             className: "text-lg sm:text-xl text-gray-300 mb-4 max-w-2xl mx-auto",
-                            children: "You don't need more traffic."
+                            children: "You don't need to work harder."
                         }), e.jsx("p", {
                             className: "text-lg sm:text-xl font-medium max-w-2xl mx-auto",
                             style: {
                                 color: "#ffffff"
                             },
-                            children: "You need to convert the traffic you already have — automatically."
+                            children: "You need to implement the latest AI tools to work smarter."
                         })]
                     })]
                 })
@@ -553,13 +553,13 @@ const I = ({
                             style: {
                                 color: "#ffffff"
                             },
-                            children: ['"But What Makes ', e.jsx("span", {
+                            children: ['"But How Do I ', e.jsx("span", {
                                 className: "serif-italic",
-                                children: "you different?"
+                                children: "work smarter?"
                             }), '"']
                         }), e.jsx("p", {
                             className: "text-lg sm:text-xl text-gray-300 max-w-2xl mx-auto px-4 md:px-0 leading-relaxed",
-                            children: "Our AI agents work 24/7 to capture leads, qualify prospects, and book appointments while you focus on growing your business."
+                            children: "Bring AI into your business. Custom built AI solutions help you cut costs, grow revenue and scale smarter."
                         })]
                     }), e.jsx("div", {
                         className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 px-4 md:px-0",
@@ -567,20 +567,20 @@ const I = ({
                             icon: e.jsx(l, {
                                 size: 28
                             }),
-                            title: "Guaranteed",
-                            description: "We only win when you win. That's the basis for a great partnership. If you don't like the results, you get your money back. Guaranteed."
+                            title: "AI Lead Qualification",
+                            description: "Automatically qualify leads based on your criteria, making sure you don't spend time on uninterested leads."
                         }, {
                             icon: e.jsx(o, {
                                 size: 28
                             }),
-                            title: "Lead Qualification",
-                            description: "Automatically qualify leads based on your criteria, ensuring you only spend time on high-value prospects."
+                            title: "AI SEO",
+                            description: "Rank #1 on Google and generate 100s of leads per month, within 6 months, fully automated."
                         }, {
                             icon: e.jsx(r, {
                                 size: 28
                             }),
-                            title: "Instant Response",
-                            description: "Respond to inquiries in seconds, not hours. Keep prospects engaged when they're most interested."
+                            title: "AI Phone Callers",
+                            description: "Use AI phone callers to handle inbound leads, set appointments and make sure to never miss a lead."
                         }, {
                             icon: e.jsx(d, {
                                 size: 28
@@ -591,8 +591,8 @@ const I = ({
                             icon: e.jsx(c, {
                                 size: 28
                             }),
-                            title: "Appointment Booking",
-                            description: "Automatically schedule appointments based on your availability and preferences."
+                            title: "WhatsApp Campaigns",
+                            description: "Automated campaings to revive your lead list without spending a fortune on ads. On WhatsApp, SMS or any other channel."
                         }, {
                             icon: e.jsx(m, {
                                 size: 28
