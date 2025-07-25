@@ -903,12 +903,12 @@ const I = ({
                             })]
                         }), e.jsxs("p", {
                             className: "text-lg sm:text-xl text-gray-300 mb-8 md:mb-12 px-4 md:px-0 leading-relaxed max-w-2xl mx-auto",
-                            children: ["Book a free AI Web Agent demo and see it on your site.", " ", e.jsx("span", {
+                            children: ["Book a free call. We'll build you a demo.", " ", e.jsx("span", {
                                 className: "sm:hidden",
-                                children: "No pressure. No hard sell. Just results."
+                                children: "No pressure. No commitment. Just results."
                             }), e.jsxs("span", {
                                 className: "hidden sm:inline",
-                                children: [e.jsx("br", {}), "No pressure. No hard sell. Just results."]
+                                children: [e.jsx("br", {}), "No pressure. No commitment. Just results."]
                             })]
                         }), e.jsx(f.div, {
                             className: "px-4 md:px-0",
@@ -934,7 +934,7 @@ const I = ({
                                 to: "/contact",
                                 primary: !0,
                                 className: "text-base md:text-lg px-8 md:px-12 py-3 md:py-4 w-full sm:w-auto shadow-[0_0_30px_rgba(255,155,5,0.4)] hover:shadow-[0_0_40px_rgba(255,155,5,0.6)]",
-                                children: "Apply now"
+                                children: "Book Now"
                             })
                         })]
                     })
