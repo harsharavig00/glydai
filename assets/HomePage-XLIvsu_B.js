@@ -298,12 +298,12 @@ const I = ({
                             },
                             children: [e.jsx("span", {
                                 className: "block mb-1 md:mb-0",
-                                children: "Get More Clients"
+                                children: "Your agency already works hard."
                             }), e.jsxs("span", {
                                 className: "block",
-                                children: ["And ", e.jsx("span", {
+                                children: ["Now ", e.jsx("span", {
                                     className: "serif-italic",
-                                    children: "more sales."
+                                    children: "add smart."
                                 })]
                             })]
                         }), e.jsx(f.h2, {
