@@ -897,13 +897,13 @@ e.jsx(u, {
                 style: {
                     color: "#ffffff"
                 },
-                children: ['"See How We Help Businesses ', e.jsx("span", {
+                children: ['What Our Clients Say ', e.jsx("span", {
                     className: "serif-italic",
-                    children: "Work Smarter"
+                    children: "about us"
                 }), '"']
             }), e.jsx("p", {
                 className: "text-lg sm:text-xl text-gray-300 max-w-2xl mx-auto px-4 md:px-0 leading-relaxed",
-                children: "Hear from our clients about the impact of our custom AI solutions on their growth and efficiency."
+                children: "Hear from our clients who have saved time and moneey."
             })]
         }), e.jsx("div", {
             className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 px-4 md:px-0",
@@ -912,8 +912,8 @@ e.jsx(u, {
                     className: "text-amber-400",
                     children: "“"
                 }),
-                title: "John Doe - CEO, Tech Innovations",
-                description: "The AI lead qualification has transformed our sales process, saving us countless hours."
+                title: "Shloka Sudhakar - CEO, Besu India",
+                description: "'Integrating AI automations into our Shopify store has significantly improved operational efficiency. Customers are able to refine their search, leading to quicker decision making and 23% increase in conversions.'"
             }, {
                 icon: e.jsx("span", {
                     className: "text-amber-400",
