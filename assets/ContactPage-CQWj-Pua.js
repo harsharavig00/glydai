@@ -164,10 +164,10 @@ const f = [{
                             })]
                         })]
                     }), r.jsxs("div", {
-                        className: "flex flex-col md:flex-row gap-8",
+                        className: "grid grid-cols-1 md:grid-cols-2 gap-8",
                         children: [
                             r.jsx("div", {
-                                className: "md:w-1/2",
+                                className: "w-full",
                                 children: r.jsx("div", {
                                     className: "calcom-embed",
                                     children: r.jsx("iframe", {
@@ -180,7 +180,7 @@ const f = [{
                                 })
                             }),
                             r.jsxs("div", {
-                                className: "md:w-1/2 flex flex-col items-center justify-center",
+                                className: "w-full flex flex-col items-center justify-center",
                                 children: [
                                     r.jsx("p", {
                                         className: "text-lg md:text-xl text-gray-300 mb-4",
