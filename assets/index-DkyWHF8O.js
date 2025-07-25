@@ -145,17 +145,7 @@ const v = ({
                 name: "Blog",
                 path: "/blog"
             }, {
-                name: "Contact",
-                path: "/contact"
-            }, {
-                name: "Newsletter",
-                path: "/newsletter"
-            }, {
-                name: "Instagram",
-                path: "https://www.instagram.com/nmw3_/",
-                external: !0
-            }, {
-                name: "X",
+                name: "Trasnform",
                 path: "https://x.com/nmw3_",
                 external: !0
             }], []),
