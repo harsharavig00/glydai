@@ -145,26 +145,26 @@ const I = ({
         })
     },
     A = [{
-        question: "What exactly does your AI chatbot do?",
-        answer: "Our AI chatbot instantly answers questions on your website, captures leads, books appointments, and sends everything straight to your CRM — 24/7, no missed leads, no waiting."
+        question: "How long does it take to see results from the AI solutions?",
+        answer: "Most businesses see initial results within 1-3 months, with full impact in 6 months."
     }, {
-        question: "Is this just a regular chatbot with pre-set responses?",
-        answer: 'Nope. It\'s not a "choose your own adventure" bot. Ours uses AI to understand questions and reply in real-time like a human would — while staying focused on converting leads.'
+        question: "Is the AI solution customizable for my specific industry?",
+        answer: 'Yes, we tailor make solutions to fit your industry’s unique needs and challenges.'
     }, {
-        question: "Will this work for my specific home service business?",
-        answer: "Yes. We custom-build every AI agent for your exact services, offers, location, and customer language — whether you're in HVAC, roofing, plumbing, solar, or beyond."
+        question: "What kind of support do you offer after deployment?",
+        answer: "Ongoing support includes monthly checks, updates, and optimization to ensure success."
     }, {
-        question: "Does it integrate with my current CRM or scheduler?",
-        answer: "Yep. We connect your AI agent directly with your CRM and/or booking calendar so you never lose a lead. If you don't have one, we'll set one up for you."
+        question: "Are there any hidden costs beyond the one-time AI agent fee?",
+        answer: "No hidden costs; the one-time fee covers setup, with optional add-ons clearly outlined."
     }, {
-        question: "Will I need to manage or maintain the bot myself?",
-        answer: "Nope. We handle setup, training, and testing. You don't need to write scripts or manage it — it just runs. Ongoing maintenance is optional (and affordable) if you want updates or tweaks."
+        question: "How secure is my business data with your AI tools?",
+        answer: "We use industry-standard encryption and strict protocols to protect your data."
     }, {
-        question: "How long does setup take?",
-        answer: "Typical build time is 5–10 business days after our discovery call. We build, test, and launch it live on your site — you don't lift a finger."
+        question: "Can I test the AI solution before committing?",
+        answer: "Yes, please get in touch with us by booking a call."
     }, {
-        question: "How much does it cost?",
-        answer: "$1,500-$2,500 for an AI agent system. We charge a one-time setup fee for your custom AI system. OPTIONAL monthly support is available ($250/month). No confusing retainers or surprise bills — just results."
+        question: "Do I need technical skills to use your AI tools?",
+        answer: "No, our AI solutions are user-friendly and require no technical expertise to operate."
     }],
     W = () => {
         const [t, s] = h.useState([]), n = h.useCallback(e => {
