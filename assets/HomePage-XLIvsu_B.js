@@ -367,7 +367,7 @@ const I = ({
                         className: "max-w-3xl mx-auto rounded-lg"
                     })
                 }), e.jsxs(f.div, {
-                    className: "flex flex-col sm:flex-row gap-4 justify-center items-center px-4 md:px-0",
+                    className: "flex flex-col sm:flex-row gap-4 justify-center items-center px-4 md:px-0 mt-12",
                     initial: {
                         opacity: 0,
                         y: 20
