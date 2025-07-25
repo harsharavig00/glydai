@@ -258,17 +258,17 @@ const P = () => {
                                 className: "w-12 h-12 mr-2"
                             }), _.jsx("span", {
                                 className: "text-xl font-medium text-white",
-                                children: "NMW3"
+                                children: "GlydAI"
                             })]
                         }), _.jsx("h3", {
                             className: "text-2xl font-medium mb-4",
                             style: {
                                 color: "#ffffff"
                             },
-                            children: "Join my newsletter"
+                            children: "Get Free AI Resources"
                         }), _.jsx("p", {
                             className: "text-gray-400 mb-6 max-w-md",
-                            children: "Sign up to our newsletter to get tactical advice on AI automation and lead generation."
+                            children: "Sign up to get tactical AI plug & play resources to grow your business."
                         }), _.jsx("p", {
                             className: "text-gray-500 text-sm mb-6",
                             children: "Don't worry, we hate spam too."
@@ -277,7 +277,7 @@ const P = () => {
                                 return r = void 0, o = null, l = function*() {
                                     t.preventDefault(), n(!0), i("");
                                     try {
-                                        const t = "https://hook.us2.make.com/4s7maj63ursqfheh7k318f2vzgb6w2y1",
+                                        const t = "https://n8n1.gangasystems.com/webhook-test/glydaiemail",
                                             o = {
                                                 email: s,
                                                 timestamp: (new Date).toISOString(),
